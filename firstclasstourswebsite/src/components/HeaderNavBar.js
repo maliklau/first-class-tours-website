@@ -19,8 +19,8 @@ const Header = () => {
                 <p style={styles.logo}>
                     Call us today: <a style={{fontWeight: "bold"}}>(810) 300-4209</a>
                 </p>
-                <a href="/" style={{textAlign: 'center', display: 'flow'}}>
-                    <img src="firstClassLogoFillCirc.png" alt="First Class Logo" style={{ marginLeft: "150px", maxWidth: '20%', height: 'auto', padding: "5px" }} />
+                <a href="/" style={{textAlign: 'center', display: 'flow', paddingLeft: '200px'}}>
+                    <img src="firstClassLogoFillCirc.png" alt="First Class Logo" style={{ maxWidth: '25%', height: 'auto', paddingTop: "7px", paddingBottom: "3px" }} />
                 </a>
                 <nav>
                     <ul style={styles.navLinks}>
@@ -53,8 +53,7 @@ const styles = {
         alignItems: 'center',
         backgroundColor: '#33A8DA',
         color: '#fff',
-        paddingLeft: '100px',
-        paddingRight: '100px',
+        paddingLeft: '100px'
     },
     navLinks: {
         listStyle: 'none',
@@ -63,6 +62,7 @@ const styles = {
         margin: 0,
         padding: 0,
         fontweight: 'bold',
+        paddingRight: '80px'
     },
     navLink: {
         color: '#fff',

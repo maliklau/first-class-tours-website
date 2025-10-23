@@ -28,10 +28,10 @@ const DropdownMenu = () => {
         zIndex: 1000,
     }}
     className="dropdown">
-        <MenuItem><a href="washingtondc" style={styles.navLink}>Washington DC</a></MenuItem>
         <MenuItem><a href="newyorkcity" style={styles.navLink}>New York City</a></MenuItem>
-        <MenuItem><a href="mack" style={styles.navLink}>Mackinac Island</a></MenuItem>
-        <MenuItem><a href="custom" style={styles.navLink}>Custom Tours</a></MenuItem>
+        <MenuItem><a href="washingtondc" style={styles.navLink}>Washington DC</a></MenuItem>
+        <MenuItem><a href="mackinacisland" style={styles.navLink}>Mackinac Island</a></MenuItem>
+        <MenuItem><a href="customtours" style={styles.navLink}>Custom Tours</a></MenuItem>
         </ul>
     </div>
   );

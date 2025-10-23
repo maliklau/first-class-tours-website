@@ -6,6 +6,8 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import NYC from './components/places/NYC';
 import WashingtonDC from './components/places/WashingtonDC';
 import RequestQuote from './components/RequestQuote';
+import Mackinac from './components/places/Mackinac';
+import Custom from './components/places/Custom';
 
 function App() {
   return (
@@ -15,6 +17,8 @@ function App() {
         <Route path="/about" element={<AboutUs />} />
         <Route path="/newyorkcity" element={<NYC />} />
         <Route path="/washingtondc" element={<WashingtonDC />} />
+        <Route path="mackinacisland" element={<Mackinac />} />
+        <Route path="/customtours" element={<Custom />} />
         <Route path="/quote" element={<RequestQuote />} />
       </Routes>
     </BrowserRouter>

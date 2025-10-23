@@ -7,7 +7,15 @@ const NYC = () => {
     return (
         <div>
             <Header />
-            <h1>Welcome to New York City</h1>
+            <div style={styles.imageContainer}>
+                <img 
+                    src='nycSkylineCropped.jpeg' 
+                    alt="NYC Skyline" 
+                    style={styles.image}
+                />
+                <div style={styles.overlay}></div>
+                <h1 style={styles.overlayText}>Explore the Big Apple</h1>
+            </div>
             <p>
                 New York City, often simply called NYC, is the largest city in the United States. 
                 Known as "The Big Apple," it is famous for its iconic landmarks, diverse culture, 
@@ -17,6 +25,38 @@ const NYC = () => {
             <FloatingActionButton />
         </div>
     );
+};
+
+const styles = {
+    imageContainer: {
+        position: "relative",
+        width: "100%",
+        height: "auto",
+    },
+    image: {
+        width: "100%", // Span the full width of the screen
+        height: "auto", // Maintain aspect ratio
+        display: "block", // Remove any extra space below the image
+    },
+    overlay: {
+        position: "absolute",
+        top: 0,
+        left: 0,
+        width: "100%",
+        height: "100%",
+        backgroundColor: "rgba(0, 0, 0, 0.3)", // Semi-transparent black overlay
+    },
+    overlayText: {
+        position: "absolute",
+        top: "50%",
+        left: "50%",
+        transform: "translate(-50%, -50%)", // Center the text
+        fontSize: "48px",
+        fontWeight: "bold",
+        color: "#fff",
+        textShadow: "2px 2px 4px rgba(0, 0, 0, 0.7)", // Add shadow for better readability
+        textAlign: "center",
+    },
 };
 
 export default NYC;

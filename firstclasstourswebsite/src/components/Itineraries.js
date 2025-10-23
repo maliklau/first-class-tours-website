@@ -38,19 +38,19 @@ export default function Itineraries() {
 
 const itemData = [
   {
+    img: 'nycSkyline.jpeg',
+    title: 'New York City',
+  },
+  {
     img: 'washDC.jpeg',
     title: 'Washington DC',
   },
   {
-    img: 'nyc.jpeg',
-    title: 'New York City',
-  },
-  {
-    img: 'mackisland.jpeg',
+    img: 'grandHotelHorsesThumbnail.jpeg',
     title: 'Mackinac Island',
   },
   {
-    img: 'airplane.jpeg',
+    img: 'airplaneFlyingThumbnail.jpeg',
     title: 'Custom Tours',
   },
 ];

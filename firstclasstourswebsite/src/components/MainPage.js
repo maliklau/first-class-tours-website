@@ -4,13 +4,16 @@ import Itineraries from './Itineraries';
 import Header from './HeaderNavBar';
 import FloatingActionButton from './FloatingActionButton';
 import RotatingImages from './RotatingImages';
+import Testimonials from './Testimonials';
 
 const MainPage = () => {
 
     return (
         <div>
+            
             <Header />
             <Itineraries />
+            <Testimonials />
             <RotatingImages />
             <FloatingActionButton />
             <Footer />

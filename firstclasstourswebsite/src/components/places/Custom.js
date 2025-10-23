@@ -3,21 +3,21 @@ import Header from "../HeaderNavBar";
 import Footer from "../Footer";
 import FloatingActionButton from '../FloatingActionButton';
 
-const WashingtonDC = () => {
+const Custom = () => {
     return (
         <div>
             <Header />
             <div style={styles.imageContainer}>
                 <img 
-                    src='washDCCropped.jpeg' 
-                    alt="NYC Skyline" 
+                    src='airplaneFlyingHeader.jpeg' 
+                    alt="Airplane in the sky sunrise" 
                     style={styles.image}
                 />
                 <div style={styles.overlay}></div>
-                <h1 style={styles.overlayText}>Discover the Nation's Capital</h1>
+                <h1 style={styles.overlayText}>Skies the limit</h1>
             </div>
             <p>
-                Washington DC, often simply called NYC, is the largest city in the United States. 
+                New York City, often simply called NYC, is the largest city in the United States. 
                 Known as "The Big Apple," it is famous for its iconic landmarks, diverse culture, 
                 and vibrant energy. From Times Square to Central Park, NYC has something for everyone!
             </p>
@@ -59,4 +59,4 @@ const styles = {
     },
 };
 
-export default WashingtonDC;
+export default Custom;
